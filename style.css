@@ -12,9 +12,16 @@ body {
 }
 h1 {
   font-size: 55px;
+  -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
 }
 h2 {
   color: black;
+  text-align: center;
+}
+h3 {
+  color: black;
+  text-align: center;
 }
 
 
@@ -25,20 +32,16 @@ img {
   height: 195px;
   width: 175px;
   border: 2px solid black;
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
+  border-radius: 100%;
+  padding-left:.01cm;
 }
 .nav {
   background-color: yellow;
   height: 575px;
+  margin-left: 1cm;
   float: left;
   flex: 1;
 
-}
-.nav h1 {
-  padding-left: 20px;
 }
 .main {
   padding-left: 30px;
